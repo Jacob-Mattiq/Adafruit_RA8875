@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/RA8875_touchscreen/Core/Inc_hpp",
+                "${workspaceFolder}/RA8875_touchscreen/Core/Inc",
+                "${workspaceFolder}/RA8875_touchscreen/Core/Src",
+                "${workspaceFolder}/RA8875_touchscreen/Core/Src_cpp"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F407xx"
+            ],
+            "compilerPath": "C:\\CTOOLS\\mingw32\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}

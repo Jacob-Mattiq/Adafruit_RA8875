@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;RA8875_touchscreen/Core/Src/it.c&apos; to &apos;stn32f4xx_it.c&apos;" description="Rename resource &apos;it.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/it.c" name="stn32f4xx_it.c" stamp="1733961870961" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;RA8875_touchscreen/Core/Src/stn32f4xx_it.c&apos; to &apos;stm32f4xx_it.c&apos;" description="Rename resource &apos;stn32f4xx_it.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/stn32f4xx_it.c" name="stm32f4xx_it.c" stamp="1733961977403" updateReferences="true"/>
+</session>

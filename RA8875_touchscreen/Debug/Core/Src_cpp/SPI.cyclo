@@ -1,0 +1,7 @@
+../Core/Src_cpp/SPI.cpp:3:1:SPI::SPI(const SPI_Config&)	16
+../Core/Src_cpp/SPI.cpp:22:6:void SPI::init(const SPI_Config&)	15
+../Core/Src_cpp/SPI.cpp:78:6:void SPI::configureClock()	4
+../Core/Src_cpp/SPI.cpp:93:9:uint8_t SPI::transfer(uint8_t)	3
+../Core/Src_cpp/SPI.cpp:107:10:uint16_t SPI::transfer16(uint16_t)	1
+../Core/Src_cpp/SPI.cpp:117:6:void SPI::begin()	1
+../Core/Src_cpp/SPI.cpp:121:6:void SPI::end()	2

@@ -1,0 +1,10 @@
+19:24:58 **** Incremental Build of configuration Debug for project RA8875_touchscreen ****
+make -j16 all 
+arm-none-eabi-size  RA8875_touchscreen.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14600	     36	   1572	  16208	   3f50	RA8875_touchscreen.elf
+Finished building: default.size.stdout
+ 
+
+19:24:59 Build Finished. 0 errors, 0 warnings. (took 564ms)
+

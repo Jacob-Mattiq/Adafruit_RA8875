@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "usb_host.h": "c",
+        "cstdint": "cpp",
+        "cstring": "cpp"
+    }
+}
