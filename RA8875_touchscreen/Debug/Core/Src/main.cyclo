@@ -1,2 +1,2 @@
 ../Core/Src/main.cpp:22:5:int main()	4
-../Core/Src/main.cpp:98:10:void SystemClock_Config(uint8_t)	7
+../Core/Src/main.cpp:99:10:void SystemClock_Config(uint8_t)	7

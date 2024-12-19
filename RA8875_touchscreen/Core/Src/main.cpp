@@ -22,9 +22,10 @@
 int main(void)
 {
     HAL_Init();
-    SystemClock_Config(SYS_CLOCK_FREQ_72_MHZ);
 
-    Adafruit_RA8875 tft = Adafruit_RA8875(csPort, csPin, rstPort, rstPin);
+    SystemClock_Config(SYS_CLOCK_FREQ_48_MHZ);
+
+	Adafruit_RA8875 tft = Adafruit_RA8875(csPort, csPin, rstPort, rstPin);
 
       /* Initialize the display using 'RA8875_480x80', 'RA8875_480x128', 'RA8875_480x272' or 'RA8875_800x480' */
     if (!tft.begin(RA8875_800x480)) {

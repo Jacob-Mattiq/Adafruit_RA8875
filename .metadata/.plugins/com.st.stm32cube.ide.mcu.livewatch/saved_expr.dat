@@ -1,1 +1,6 @@
-_pSPIx->DR
+_port
+_port == GPIOB
+_port==GPIOA
+_pin
+gpiopininit
+port

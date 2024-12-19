@@ -86,9 +86,27 @@ bool Adafruit_RA8875::begin(enum RA8875sizes s) {
   }
   _rotation = 0;
 
+//  __HAL_RCC_GPIOA_CLK_ENABLE();
+//
+//  GPIO_InitTypeDef gpiopininit = {0};
+//
+//  gpiopininit.Pin = GPIO_PIN_5;
+//
+//  gpiopininit.Mode = GPIO_MODE_OUTPUT_PP;
+//
+//  gpiopininit.Pull = GPIO_NOPULL;
+//
+//  HAL_GPIO_Init(GPIOA, &gpiopininit);
+//
+//  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+//
+//  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+//
+//  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+
   // Initialize CS and RST pins as outputs
-  _cs.init(PP_OUTPUT_MODE, NO_PULL);
-  _rst.init(PP_OUTPUT_MODE, NO_PULL);
+//  _cs.init(PP_OUTPUT_MODE, NO_PULL);
+//  _rst.init(PP_OUTPUT_MODE, NO_PULL);
 
   // write CS high and keep it high
   _cs.write(GPIO_PIN_SET);

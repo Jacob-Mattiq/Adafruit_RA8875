@@ -215,7 +215,7 @@ private:
   {
     return {
       .SPI_DeviceMode = DEVICE_MODE_MASTER,
-      .SPI_Mode = SPI_MODE_3,
+      .SPI_Mode = SPI_MODE_1,
       .SPI_BaudRate = BR_DIV32,
       .SPIx = SPI1
     };

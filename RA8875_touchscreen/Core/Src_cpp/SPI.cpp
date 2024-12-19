@@ -20,12 +20,14 @@ SPI::SPI(const SPI_Config &config):
 }
 
 void SPI::init(const SPI_Config &config) {
-    SPI_InitTypeDef _spiInit;
+    SPI_InitTypeDef _spiInit = {0};
+
+    configureClock();
 
      // Set device mode (Master/Slave)
-    _spiInit.Mode = (config.SPI_DeviceMode == DEVICE_MODE_MASTER) ? 
+    _spiInit.Mode = (config.SPI_DeviceMode == DEVICE_MODE_MASTER) ?
                     SPI_MODE_MASTER : SPI_MODE_SLAVE;
-    
+
     // Set clock polarity and phase based on SPI mode
     switch(config.SPI_Mode) {
         case SPI_MODE_0:
@@ -66,8 +68,6 @@ void SPI::init(const SPI_Config &config) {
     _pSPIx = config.SPIx;
     _spiHandle.Instance = _pSPIx;
     _spiHandle.Init = _spiInit;
-
-    configureClock();
 
     // Initialize SPI using HAL
     if(HAL_SPI_Init(&_spiHandle) != HAL_OK) {
